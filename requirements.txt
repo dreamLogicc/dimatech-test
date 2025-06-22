@@ -1,0 +1,7 @@
+fastapi[all]
+alembic
+sqlalchemy
+asyncpg
+python-dotenv
+python-jose[cryptography]
+bcrypt
