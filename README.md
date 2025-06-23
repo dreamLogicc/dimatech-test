@@ -17,7 +17,14 @@
     ```bash
    pip install -r requirements.txt
    ```
-4. Запустите приложение
+4. Сделайте миграции БД
+   ```bash
+   alembic upgrade b9497af71930
+   ```
+   ```bash
+   alembic upgrade 1b3fadd0c80b
+   ```
+5. Запустите приложение
     ```
    python src/main.py
    ```
